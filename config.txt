@@ -1,0 +1,13 @@
+구름을 분류하기 위해서 만들어짐.
+
+학습 데이터셋 : swimcat_da_split
+best_model.h5 있던곳 : /datasets/UsedDataset/swimcat_da_split_log/20230904_195003.798128
+
+result.yaml 내용 :
+"               precision    recall  f1-score   support\n\n        A-sky       1.00\
+  \      0.96      0.98       180\n    B-pattern       0.92      0.99      0.95  \
+  \      72\n C-thick-dark       0.99      1.00      1.00       202\nD-thick-white\
+  \       0.96      0.93      0.94       108\n       E-veil       0.85      0.91 \
+  \     0.88        69\n\n     accuracy                           0.96       631\n\
+  \    macro avg       0.95      0.96      0.95       631\n weighted avg       0.97\
+  \      0.96      0.96       631\n"
